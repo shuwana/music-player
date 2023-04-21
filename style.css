@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Barrio");
+
+body{
+  width: auto;
+  height: auto;
+  background-color: #89B95F;
+  margin: 20px;
+  text-align: center;
+  color: #000000;
+  overflow-y: hidden;
+}
+
+#header{
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 30px; 
+}
+
+#col-1{
+  float: left;
+  width: 60%;
+  margin-top: auto;
+}
+.progress-bar{
+  width: 100%;height: 10px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
+#col-2{
+  float: right;
+  width: 35%; 
+  margin-top: 10px;
+}
+
+p {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+h1{
+  font-family: 'Barrio'
+}
+
+h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  text-align: left;
+  margin-bottom: 15px;
+  
+}
+
+.scrollable{
+  overflow-y: scroll;
+  height: 450px;
+}
+
+.album-title{
+  margin-bottom: 5px;
+  font-size: 24px;
+  font-weight: 100;
+  font-style: italic;
+  color: #000000;
+}
+
+.song-title {
+  font-size: 22px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.artist-name {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.album-artwork {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  filter: drop-shadow(0px 0px 12px rgba(0, 0, 0, 0.53));
+}
+
+div{
+  margin-bottom: 20px;
+}
+
+.bi{
+  margin: 10px 30px 20px;
+}
+
+#obviously,
+#shea-butter-baby,
+#telepatia,
+#same-ol-mistake,
+#me-in-her,
+#riot,
+#girl-like-me,
+#drew-barrymore{
+  text-align: left;
+  margin-left: 10px;
+}
+
+.up-Next-Song {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.up-Next-Artist{
+  font-weight: 300;
+  font-size: 18px;
+}
+.controls{
+  margin-top: -50px;
+}
+
+/* CSS for Input slider*/
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: rgba(0, 0, 0, 0.25);
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #000000;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #000000;
+  cursor: pointer;
+}
+
+.track-time {
+  grid-area: five;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: -15px;
+}
+
+#currentTime {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #000000;
+}
+
+#durationTime {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #000000;
+}
+
